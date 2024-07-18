@@ -18,6 +18,11 @@ public class MetaObjectExample {
         List<Order> orders;
         String name;
         Integer age;
+//        public User(List<Order> orders,String name,Integer age){
+//            this.age=age;
+//            this.name=name;
+//            this.orders=orders;
+//        }
     }
 
     @Data
@@ -25,6 +30,8 @@ public class MetaObjectExample {
     private static class Order {
         String orderNo;
         String goodsName;
+
+
     }
 
     @Test
